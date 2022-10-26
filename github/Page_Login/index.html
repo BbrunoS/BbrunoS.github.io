@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+        <title>Login</title>
+    </head>
+    <body >
+        <div class="main-login">
+            <div class="left-login">
+                <h1>Faça seu login<br>E entre para o nosso time</h1>
+                <img src="copyright-animate.svg" class="left-login-image" alt="lampada">
+            </div>
+
+            <div class="right-login">
+                <form class="card-login">
+                    <h1>LOGIN</h1>
+                    <div class="textfield">
+                        <label for="usuario">Usuário</label>
+                        <input type="e-mail" name="usuario" >
+                    </div>
+                    <div class="textfield">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="usuario">
+                    </div>
+                    <input type="reset" value="login" class="btn-login" onclick="login()" ></input>
+
+                </form>
+            </div>
+            
+        </div>
+
+        <div class="footer"><p>Projeto Acadêmico | Desenvolvedor: BC Front.</p></div>
+
+        <script>
+            function login() {
+                alert("Usuario cadastrado com sucesso!")
+            }
+        </script>
+    </body>
+</html>
