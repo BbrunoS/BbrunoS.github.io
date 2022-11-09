@@ -1,0 +1,35 @@
+.titulo {
+    text-decoration: none;
+    color: black;
+    transition-duration: .5s;
+}
+
+
+.titulo:hover {
+    color: rgb(1, 36, 231);
+}
+
+#alura {
+    text-decoration: none;
+    color: black;
+    transition-duration: .5s;
+}
+
+
+.titulo:hover {
+    color: #ff6f9c;
+}
+
+#udemi{
+    text-decoration: none;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.icontainer col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
