@@ -1,6 +1,6 @@
 Meu Portfólio
 
-Calculadora1: <a>https://bbrunos.github.io/github/calculadora/calculadora.html<\a>
+Calculadora1: <a>https://bbrunos.github.io/github/calculadora/calculadora.html</a>
 
 Login: https://bbrunos.github.io/github/login/index.html
 
